@@ -1,0 +1,97 @@
+@media (max-width: 1200px){
+
+}
+@media (max-width: 991px){
+    .container{
+        max-width: 700px;
+    }
+}
+@media (max-width: 767px){
+    .title{
+        font-size: 27px;
+    }
+    .container{
+        max-width: 600px;
+    }
+    .header {
+        &__logo{
+            width: 200px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+        &__icons{
+            width: 390px;
+        }
+    }
+    .button{
+        &_main{
+            width: 250px;
+        }
+    }
+    .advantages{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            max-width: 400px;
+            margin-bottom: 40px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .title{
+        font-size: 20px;
+    }
+    .container{
+        width: 300px;
+    }
+    .header{
+        &__official{
+            display: none;
+        }
+        &__logo{
+            width: 150px;
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+    .button {
+        width: 130px;
+        &_main{
+            width: 270px;
+        }
+    }
+    .promo{
+        padding: 21px 0;
+        min-height: 500px;
+        &__header{
+            font-size: 30px;
+            line-height: 32px;
+        }
+        &__subheader{
+            margin: 0;
+            font-size: 18px;
+        }
+        &__icons{
+            display: none;
+        }
+        &__wrapper{
+            margin-top: 60px;
+            align-items: center;
+        }
+    }
+    .advantages{
+        padding: 44px 0;
+        &__item{
+            max-width: 250px;
+        }
+    }
+}

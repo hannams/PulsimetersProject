@@ -4,6 +4,7 @@ const browserSync = require("browser-sync");
 const cleanCSS = require("gulp-clean-css");
 const rename = require("gulp-rename");
 const autoprefixer = require("gulp-autoprefixer");
+const devip = require("dev-ip");
 
 gulp.task("server", function() {
   browserSync({
@@ -44,3 +45,4 @@ gulp.task("watch", function() {
 });
 
 gulp.task("default", gulp.parallel("watch", "server", "styles"));
+devip();
