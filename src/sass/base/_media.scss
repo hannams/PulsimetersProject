@@ -16,6 +16,11 @@ less than 991px
     .container{
         max-width: 700px;
     }
+    .carousel{
+        &__inner{
+            width: 650px;
+        }
+    }
 }
 /*
 
@@ -57,6 +62,7 @@ less than 767px
         }
     }
     .advantages{
+        padding: 69px 0;
         &__wrapper{
             flex-direction: column;
             align-items: center;
@@ -70,6 +76,12 @@ less than 767px
         padding: 68px 0;
         &__descr{
             margin-top: 20px;
+        }
+    }
+    .carousel{
+        padding: 58px 0;
+        &__inner{
+            width: 450px;
         }
     }
 }
@@ -150,6 +162,12 @@ less than 575px
         margin-top: 36px;
         input{
             width: 270px;
+        }
+    }
+    .carousel{
+        padding: 58px 0;
+        &__inner{
+            width: 300px;
         }
     }
 }
