@@ -1,4 +1,4 @@
-.review{
+.review {
     padding-bottom: 60px;
     &__item{
         display: flex;
@@ -6,10 +6,28 @@
     }
     &__text{
         margin-left: 62px;
+        padding-right: 60px;
     }
     &__subtitle{
         color: #0d0d0d;
         font-size: 18px;
         font-weight: 700;
+    }
+    &__count {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__descr {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: justify;
+        margin-top: 15px;
+    }
+    &__img {
+            width: 169px;
+            height: 169px;
+            margin: auto;
     }
 }

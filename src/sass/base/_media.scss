@@ -98,6 +98,19 @@ less than 767px
 
         }
     }
+    .review {
+        padding-bottom: 40px;
+        &__item {
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__text{
+            margin-top: 25px;
+            text-align: center;
+        }
+
+    }
 }
 /*
 
@@ -201,6 +214,27 @@ less than 575px
         &__content{
             margin-top: 40px;
             justify-content: center;
+        }
+    }
+    .review {
+        &__text {
+            margin: 20px 7px 0 7px;
+            padding: 0;
+
+        }
+    }
+    .footer {
+        min-height: 500px;
+        &__info{
+            width: 300px;
+            height: 248px;
+            background-color: #c70101;
+            padding: 20px 23px 20px 23px;
+        }
+        &__social-item{
+            i{
+                font-size: 23px;
+            }
         }
     }
 }
