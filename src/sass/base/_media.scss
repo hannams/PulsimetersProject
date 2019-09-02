@@ -84,6 +84,20 @@ less than 767px
             width: 450px;
         }
     }
+    .catalog{
+        padding-bottom: 60px;
+        &__content{
+            &_active{
+                justify-content: center;
+            }
+        }
+        &__tab{
+            font-size: 16px;
+            height: 45px;
+            line-height: 45px;
+
+        }
+    }
 }
 /*
 
@@ -168,6 +182,25 @@ less than 575px
         padding: 58px 0;
         &__inner{
             width: 300px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        &__tab{
+            margin-bottom: 7px;
+            font-size: 14px;
+            height: 35px;
+            line-height: 35px;
+
+        }
+        &__content{
+            margin-top: 40px;
+            justify-content: center;
         }
     }
 }
