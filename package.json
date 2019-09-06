@@ -1,5 +1,5 @@
 {
-  "name": "uberproject",
+  "name": "pulsimetersproject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,8 @@
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-cli": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.1.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
   },
@@ -18,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hannms/UberProject.git"
+    "url": "git+https://github.com/hannms/PulsimetersProject.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hannms/UberProject/issues"
+    "url": "https://github.com/hannms/PulsimetersProject/issues"
   },
-  "homepage": "https://github.com/hannms/UberProject#readme"
+  "homepage": "https://github.com/hannms/PulsimetersProject#readme"
 }
