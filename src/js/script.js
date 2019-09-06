@@ -35,4 +35,5 @@ $('.catalog-item__link').each(function(i) {
 			$('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
 		 });
 		});
+
 });
