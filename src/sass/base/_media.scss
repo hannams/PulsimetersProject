@@ -237,4 +237,14 @@ less than 575px
             }
         }
     }
+
+.modal{
+    width: 300px;
+    padding: 30px 14px;
+    &__close{
+        right: 7px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
 }
